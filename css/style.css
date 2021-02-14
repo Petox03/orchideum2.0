@@ -1,0 +1,182 @@
+/*salto de línea*/
+@media screen and (min-width: 992px)
+{
+    .sdl
+    {
+        font-size: 0;
+        display: block;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 991px)
+{
+    .sdl
+    {
+        font-size: 0;
+        display: block;
+        margin-top: 25px;
+    }
+}
+
+/*Navbar*/
+#header{position:fixed;width:100%;z-index: 1000;}
+.link{
+    color: #87c7be !important;
+    text-decoration: none !important;
+    font-size: 1em !important;
+}
+.link:hover
+{
+    color: #6c569f !important;
+    text-decoration: none !important;
+
+    border-bottom: 1px solid navy;
+
+    transition: all 0.3s ease-out !important;
+
+    font-size: 1.02em !important;
+
+}
+
+/*Imagen de fondo*/
+.bg-img
+{
+    background-image: url(../img/ocp.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.bg-txt
+{
+    color: #fff; /*Es temporal el color*/
+}
+.color{color: #88d0c4;font-weight: 550;}
+@media screen and (min-width:992px)
+{
+    .bg-txt-title
+    {
+        font-size: 5em;
+        display: block;
+        display: inline-block;
+        line-height: 1.06em;
+    }
+}
+@media screen and (max-width:991px)
+{
+    .bg-txt-title
+    {
+        font-size: 2em;
+        display: block;
+        display: inline-block;
+    }
+}
+
+/*Listas*/
+.lista{
+    list-style: none; /* Quitamos los marcadores */
+    padding: 0; /* Quitamos el padding por defecto de la lista */
+    margin-left: 1em; /* Separamos la lista de la izquierda */
+}
+
+.lista li::before { /* Añadimos contenido antes de cada elemento de la lista */
+    content: "\2022"; /* Insertamos el marcador */
+    padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+    color: #6c569f; /* Coloreamos la viñeta */
+}
+
+.icon-link
+{
+    color: black;
+    text-decoration: none;
+}
+.icon-link:hover
+{
+    color: #ccbff7;
+    text-decoration: none;
+    font-size: 3em;
+    transition: all 0.03 ease-in;
+}
+
+.ListIcons ul{
+    list-style: none;
+}
+.ListIcons ul li
+{
+    padding: 2px;
+    margin-top: 20px;
+}
+.vh
+{
+    border-left:4px solid  #87c5bd;float:left;
+}
+
+@media screen and (min-width: 992px)
+{
+    .map
+    {
+        width: 640px;
+        height: 480px;
+    }
+}
+.title-color{/* color de los subtitulos */
+    text-shadow: 5px 5px 5px #e2e0e7;
+    color:#88d0c4;
+    font-weight: 650;
+}
+.fondo{ /* aun no lo uso en algo */
+    background-color: #87c7be ;
+}
+
+.infcolor{/*color de letra de las cards */
+color:#87c7be;
+}
+/*footer*/
+.footer-page{
+    background-color: #86c7bc;
+    position: relative;
+}
+
+/*Animación de los íconos*/
+.icon:hover{
+	-webkit-animation: 1s infinite pulso;
+    animation: 1s infinite pulso;
+    -webkit-animation-timing-function:ease-in-out;
+    animation-timing-function:ease-in-out;
+    filter: drop-shadow(5px 5px 10px #8b5fc5);
+}
+@-webkit-keyframes pulso{
+	0%{
+        -webkit-transform:scaleX(1);
+        transform:scaleX(1);
+    }
+    50%{
+        -webkit-transform:scale3d(0.9,0.9,0.9);
+        transform:scale3d(0.9,0.9,0.9);
+    }
+    to{
+        -webkit-transform:scaleX(1);
+        transform:scaleX(1);
+    }
+}
+@keyframes pulso{
+	0%{
+        -webkit-transform:scaleX(1);
+        transform:scaleX(1);
+    }
+    50%{
+        -webkit-transform:scale3d(0.9,0.9,0.9);
+        transform:scale3d(0.9,0.9,0.9);
+    }
+    to{
+        -webkit-transform:scaleX(1);
+        transform:scaleX(1);
+    }
+}
+
+
+
+

@@ -14,5 +14,11 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
-    }
+    },
+    "name": "orcideum2.0",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Petox03/orchideum2.0.git",
+    "author": "ProgramArte <petox.somart@outlook.com>",
+    "license": "MIT"
 }
