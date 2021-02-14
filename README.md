@@ -1,3 +1,14 @@
+Proyecto web de Orchideum versión 2
+
+## Qué hay de nuevo?
+
+Se incluyó Laravel completamente y se hará uso del modelo vista controlador integrado en Laravel.
+
+Se usará Axios y Slim para el dinamismo y protección del envio de datos y peticiones a la base de datos por medio del los usuarios.
+
+Se exportará el index anterior y todos los módulos.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
