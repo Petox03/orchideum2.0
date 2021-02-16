@@ -139,6 +139,9 @@ color:#87c7be;
     background-color: #86c7bc;
     position: relative;
 }
+.foot-link{
+    text-decoration: none !important;
+}
 
 /*Animación de los íconos*/
 .icon:hover{
