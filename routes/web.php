@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\homeController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\pruebaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', homeController::class);
+
+Route::get('prueba/', [pruebaController::class, 'index']);
+Route::get('pruebas/', [pruebaController::class, 'create']);
+Route::get('pruebas/{a}', [pruebaController::class, 'prueba']);
