@@ -53,6 +53,8 @@
 .bg-txt
 {
     color: #fff; /*Es temporal el color*/
+    
+    
 }
 .color{color: #88d0c4;font-weight: 550;}
 @media screen and (min-width:992px)
@@ -180,6 +182,48 @@ color:#87c7be;
     }
 }
 
+#estres{
+    
+    background-image: url(../img/estres.jpg);
+    
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px ;
+    width: 793px;
+
+}
+#emociones{
+    background-image: url(../img/emociones.jpg);
+    
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px ;
+    width: 793px;
+}
 
 
+#hepatico{
+    background-image: url(../img/hepatico.jpg);
+    
 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px ;
+    width: 793px;
+}
+
+#alimentacion{
+    background-image: url(../img/alimentacion.jpg);
+    
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px ;
+    width: 793px;
+}
