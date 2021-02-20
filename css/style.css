@@ -183,47 +183,43 @@ color:#87c7be;
 }
 
 #estres{
-    
     background-image: url(../img/estres.jpg);
-    
+    background-color: #88d0c48c;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px ;
-    width: 793px;
+    height: 290px;
+    width: auto;
 
 }
 #emociones{
     background-image: url(../img/emociones.jpg);
-    
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px ;
-    width: 793px;
+    height: 290px;
+    width: auto;
 }
 
 
 #hepatico{
     background-image: url(../img/hepatico.jpg);
-    
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px ;
-    width: 793px;
+    height: 290px;
+    width: auto;
 }
 
 #alimentacion{
     background-image: url(../img/alimentacion.jpg);
-    
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px ;
-    width: 793px;
+    height: 290px;
+    width: auto;
 }
